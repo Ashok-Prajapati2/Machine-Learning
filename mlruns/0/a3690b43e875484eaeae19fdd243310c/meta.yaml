@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/Machine-Learning/mlruns/0/a3690b43e875484eaeae19fdd243310c/artifacts
+end_time: 1737525072654
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a3690b43e875484eaeae19fdd243310c
+run_name: chill-vole-181
+run_uuid: a3690b43e875484eaeae19fdd243310c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737525069663
+status: 3
+tags: []
+user_id: codespace
