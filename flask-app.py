@@ -2,8 +2,8 @@ from flask import Flask, request, render_template
 import pickle
 
 ## Load the model
-model = pickle.load(open('model.pkl', 'rb'))
-scaler = pickle.load(open('scaler.pkl', 'rb'))
+model = pickle.load(open('models/model.pkl', 'rb'))
+scaler = pickle.load(open('models/scaler.pkl', 'rb'))
 
 app = Flask(__name__)
 app.config['DEBUG'] = True
