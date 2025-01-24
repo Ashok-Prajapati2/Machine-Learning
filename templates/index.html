@@ -1,9 +1,6 @@
-<from action="/predict" method="post">
-    <p>Enter your weight</p>
-  <input  type="text" name="weight" required=""/><br/>
-  <button class ="btn btn-primary" type="submit",value="submit">Predict</button>
-</from>
-
-<h2>
-    Height is {{result}}
-</h2>
+<form method="POST" action="/predict">
+  <label for="weight">Enter Weight:(weight should be >50 and <100)
+  </label>
+  <input type="text" id="weight" name="weight">
+  <button type="submit">Predict</button>
+</form>

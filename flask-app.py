@@ -1,11 +1,9 @@
 from flask import Flask, request, render_template
 import pickle
-from sklearn.preprocessing import StandardScaler
-
 
 ## Load the model
 model = pickle.load(open('model.pkl', 'rb'))
-sclar = pickle.load(open('scaler.pkl', 'rb'))
+scaler = pickle.load(open('scaler.pkl', 'rb'))
 
 app = Flask(__name__)
 app.config['DEBUG'] = True
@@ -18,13 +16,14 @@ def index():
 
 def predict():
     if request.method == 'POST':
-        data = float(request.form.get('weight'))
-        print(data)
-        newdata = StandardScaler.transform([[data]])
-        prediction = model.predict(newdata) 
+        data = int(request.form.get('weight'))
+        print(f"Received weight: {data}")
+        prediction = model.predict(scaler.transform([[data]]))
         return render_template('re.html', result=prediction[0])
     else:
-        return render_template('re.html')
+       if not data:
+            return render_template('re.html', result="Please enter a valid weight.")
+
     
 if __name__ == '__main__':
     app.run()
