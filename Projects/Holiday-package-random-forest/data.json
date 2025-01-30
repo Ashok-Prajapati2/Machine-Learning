@@ -1,0 +1,102 @@
+{
+    "LogisticRegression": {
+        "Test Accuracy": 83.88375165125495,
+        "Test F1": 0.6572474095187197,
+        "Test Precision": 76.77754203854045,
+        "Test Recall": 62.94103523762446,
+        "Train Accuracy": 84.47265625,
+        "Train F1": 68.03333351512606,
+        "Train Precision": 78.63633043414744,
+        "Train Recall": 64.89610297086134
+    },
+    "SVC": {
+        "Test Accuracy": 85.99735799207397,
+        "Test F1": 0.7046103781364118,
+        "Test Precision": 83.41631232649631,
+        "Test Recall": 66.6266506602641,
+        "Train Accuracy": 89.12760416666666,
+        "Train F1": 78.49670046676324,
+        "Train Precision": 90.03005719454733,
+        "Train Recall": 73.72051444719996
+    },
+    "KNeighborsClassifier": {
+        "Test Accuracy": 87.64861294583883,
+        "Test F1": 0.7616039137921597,
+        "Test Precision": 84.02084405558415,
+        "Test Recall": 72.4060447708495,
+        "Train Accuracy": 92.83854166666666,
+        "Train F1": 87.36440630433563,
+        "Train Precision": 92.1653432543765,
+        "Train Recall": 84.06652123909717
+    },
+    "GaussianNB": {
+        "Test Accuracy": 66.38044914134741,
+        "Test F1": 0.5952736957260433,
+        "Test Precision": 60.49098035787143,
+        "Test Recall": 66.2694724948803,
+        "Train Accuracy": 66.89453125,
+        "Train F1": 61.03828761334596,
+        "Train Precision": 62.23299761929226,
+        "Train Recall": 69.06392593371623
+    },
+    "DecisionTreeClassifier": {
+        "Test Accuracy": 90.29062087186261,
+        "Test F1": 0.8413639289296031,
+        "Test Precision": 84.46365248226951,
+        "Test Recall": 83.82105783489865,
+        "Train Accuracy": 100.0,
+        "Train F1": 100.0,
+        "Train Precision": 100.0,
+        "Train Recall": 100.0
+    },
+    "RandomForestClassifier": {
+        "Test Accuracy": 93.92338177014531,
+        "Test F1": 0.8915354545312962,
+        "Test Precision": 94.19148705350425,
+        "Test Recall": 85.66937363180567,
+        "Train Accuracy": 100.0,
+        "Train F1": 100.0,
+        "Train Precision": 100.0,
+        "Train Recall": 100.0
+    },
+    "GradientBoostingClassifier": {
+        "Test Accuracy": 86.06340819022456,
+        "Test F1": 0.7220773684462366,
+        "Test Precision": 81.16715758468335,
+        "Test Recall": 68.65037779817808,
+        "Train Accuracy": 88.4765625,
+        "Train F1": 77.61257448147063,
+        "Train Precision": 87.28418837033942,
+        "Train Recall": 73.31680027683257
+    },
+    "AdaBoostClassifier": {
+        "Test Accuracy": 83.55350066050198,
+        "Test F1": 0.6245050902864724,
+        "Test Precision": 78.24594257178526,
+        "Test Recall": 60.22526657721912,
+        "Train Accuracy": 83.59375,
+        "Train F1": 62.91301894150257,
+        "Train Precision": 79.505075782079,
+        "Train Recall": 60.584062450171835
+    },
+    "Perceptron": {
+        "Test Accuracy": 70.2774108322325,
+        "Test F1": 0.6061157567572568,
+        "Test Precision": 60.17405399929081,
+        "Test Recall": 64.18303792105078,
+        "Train Accuracy": 72.8515625,
+        "Train F1": 63.253820412364156,
+        "Train Precision": 62.384634775456995,
+        "Train Recall": 66.50081590973087
+    },
+    "DecisionTreeRegressor": {
+        "Test Accuracy": 89.82826948480846,
+        "Test F1": 0.8335859991720554,
+        "Test Precision": 83.72600462373691,
+        "Test Recall": 83.00656733281548,
+        "Train Accuracy": 100.0,
+        "Train F1": 100.0,
+        "Train Precision": 100.0,
+        "Train Recall": 100.0
+    }
+}
